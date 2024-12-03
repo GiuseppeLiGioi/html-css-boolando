@@ -1,0 +1,47 @@
+
+header{
+    background-color: #FF6900;
+    /*height: 100px;*/
+    width: 100%;
+    padding-block: 15px;
+    position: fixed;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    /*border: 3px solid green;*/
+    align-items: center;
+    
+    
+}
+
+.menu ul {
+    display: flex;
+    column-gap: 10px;
+    
+    
+    
+
+
+}
+.menu a{
+   
+    color: white;
+}
+
+.logo{
+    box-sizing: content-box;
+    
+}
+
+.icon{
+    height: 10px;
+    width: 20px;
+    fill: white;
+}
+
+.container-icon{
+    display: flex;
+    column-gap: 10px;
+}
