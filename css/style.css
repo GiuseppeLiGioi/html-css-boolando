@@ -4,7 +4,7 @@ header{
     /*height: 100px;*/
     width: 100%;
     padding-block: 15px;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 .flex{
@@ -44,4 +44,71 @@ header{
 .container-icon{
     display: flex;
     column-gap: 10px;
+}
+
+
+.container-img{
+    display: flex;
+    /*background-color: blueviolet;*/
+    justify-content: center;
+    margin-top: 5%;
+    height: 600px;
+    width: 100%;
+    column-gap: 50px;
+   
+    
+    
+   
+    
+    
+    
+
+}
+
+
+
+.box1{
+    display: flex;
+    /*height: 400px;*/
+    width:calc(70%/3);
+    /*background-color: red;*/
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+       
+}
+.box2{
+    /*height: 400px;*/
+    width:calc(70%/3);
+    /*background-color: red;*/
+    background-image: url(../img/2.webp); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    /*height: 400px;*/
+    width:calc(70%/3);
+    /*background-color: red;*/
+    background-image: url(../img/3.webp);  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.p1-red{
+position:relative;
+top: 80%;
+height: 20px;
+width: 40px;
+background-color: red;
+color: white;
+}
+
+.p1-green{
+position:relative;
+top: 80%;
+height: 20px;
+width: 80px;
+background-color: green;
+color: white;
+
 }
