@@ -1,12 +1,12 @@
 
-header{
+header .flex{
     background-color: #FF6900;
-    /*height: 100px;*/
-    width: 100%;
     position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    
     
 }
 
@@ -67,7 +67,6 @@ header{
 
 .box1{
     display: flex;
-    /*height: 400px;*/
     width:calc(70%/3);
     /*background-color: red;*/
     background-image: url(../img/1.webp);
@@ -182,13 +181,14 @@ color: white;
     position: relative;
 }
 .icon1{
-    height: 20px;
+    height: 30px;
     width: 30px;
     position: absolute;
     right: 0;
     background-color: white;
-    text-align: center;
+    background-size: contain;
     cursor: grab;
+    /*z-index: 1;*/
    
 }
 
