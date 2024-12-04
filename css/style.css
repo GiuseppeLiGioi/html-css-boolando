@@ -3,15 +3,19 @@ header{
     background-color: #FF6900;
     /*height: 100px;*/
     width: 100%;
-    padding-block: 15px;
-    /*position: fixed;*/
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 30px;
+    
 }
 
 .flex{
     display: flex;
     justify-content: space-around;
-    /*border: 3px solid green;*/
     align-items: center;
+    
+    
     
     
 }
@@ -45,6 +49,7 @@ header{
     display: flex;
     column-gap: 10px;
 }
+
 
 
 .container-img{
