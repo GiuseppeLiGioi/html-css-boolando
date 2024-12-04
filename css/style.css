@@ -5,7 +5,7 @@ header .flex{
     width: 100%;
     top: 0;
     z-index: 1;
-   /* margin-bottom: 100px;*/
+   
     
     
 }
@@ -185,6 +185,7 @@ color: white;
     width: 30px;
     position: absolute;
     right: 0;
+    padding: 5px;
     background-color: white;
     background-size: contain;
     cursor: grab;
